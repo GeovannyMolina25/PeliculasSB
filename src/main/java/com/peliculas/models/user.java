@@ -1,6 +1,5 @@
 package com.peliculas.models;
 
-public class actor {
-    
+public @interface user {
     
 }
