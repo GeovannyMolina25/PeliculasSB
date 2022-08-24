@@ -18,26 +18,31 @@ public class Sexo{
 
     }
 
-    public Sexo (int id, String gen_nombre){
-        super();
+    public Sexo(int id, String gen_nombre) {
+        
         this.id = id;
-        this.gen_nombre =gen_nombre;
-
-    }
-    public int getId() {
-        return id;
-    }
-    public void setId(int id ){
-        this.id = id;
-    }
-    public String getGen_nombre(String gen_nombre){
-        return gen_nombre;
-    }
-    
-    public String setGen_nombre(String gen_nombre){
         this.gen_nombre = gen_nombre;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getGen_nombre() {
+        return gen_nombre;
+    }
+
+    public void setGen_nombre(String gen_nombre) {
+        this.gen_nombre = gen_nombre;
+    }
+
+    
+
+   
 }
 
 

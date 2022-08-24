@@ -4,12 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.peliculas.interfaceServices.ISexoService;
 import com.peliculas.interfaces.ISexo;
 import com.peliculas.models.Sexo;
 
-
+@Service
 public class SexoService implements ISexoService{
 
     @Autowired
@@ -18,7 +19,7 @@ public class SexoService implements ISexoService{
     
     @Override
     public List<Sexo> listar() {
-        // TODO Auto-generated method stub
+        
         return (List<Sexo>)data.findAll();
     }
 

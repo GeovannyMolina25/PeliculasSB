@@ -21,8 +21,8 @@ public class controlador {
 
     @GetMapping("/listar")
     public String listar(Model model){
-        List<Sexo>sexo=service.listar();
-        model.addAttribute("Sexos",sexo);
+        List<Sexo>sexos=service.listar();
+        model.addAttribute("Sexos",sexos);
         return "index";
     }
 }
